@@ -49,7 +49,3 @@ Defines the test menu and its functionalities:
 
 2. Ensure the pins are correctly mapped in `at93c46.h`.
 
-### Software Setup
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/at93c46-eeprom
