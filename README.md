@@ -64,5 +64,32 @@ Defines the test menu and its functionalities:
 
 ![image](https://github.com/user-attachments/assets/dcf1ffa8-4998-4245-83af-ad5881a2feb0)
 
+### Test Case 2: 
+  - ERAL (Erase content at all locations) - CMD '5'
+  - Dumping NVram - CMD '1'
+
+![image](https://github.com/user-attachments/assets/a2a6ecc1-d71c-436e-a826-46d2b2208344)
+
+### Test Case 3:
+  - WRAL 0xA5 (Writing 0xA5 at all memory locaations) - CMD '4'
+
+![image](https://github.com/user-attachments/assets/dccaf3e0-2cf2-48cc-8069-04a17926184b)
+
+### Test Case 4:
+  - ERAL (Erase content at all locations) - CMD '5'
+  - CMD '6' - Writing from 0 - 8th location
+
+![image](https://github.com/user-attachments/assets/9325bfa3-f196-4e5e-92cb-c52e3901e226)
+
+### Test Case 5:
+  - ERAL (Erase content at all locations) - CMD '5'
+  - CMD '7' - Writing from 0 - 8th location
+
+![image](https://github.com/user-attachments/assets/492f1756-d955-4fb3-86b4-2cc229f8743d)
+
+
+
+
+
 
 
