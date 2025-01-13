@@ -46,7 +46,9 @@ Defines the test menu and its functionalities:
    - **DI_PIN**: Data In
    - **DO_PIN**: Data Out
    - **CLK_PIN**: Clock
+
+2. Pin Connection:
 ![image](https://github.com/user-attachments/assets/20f4d105-e07d-4f0c-9967-51918bca6bcb)
 
-2. Ensure the pins are correctly mapped in `at93c46.h`.
+3. Ensure the pins are correctly mapped in `at93c46.h`.
 
