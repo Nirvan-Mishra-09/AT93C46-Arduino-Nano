@@ -54,3 +54,7 @@ Defines the test menu and its functionalities:
 
 4. Ensure the pins are correctly mapped in `at93c46.h`.
 
+## Test Menu
+![image](https://github.com/user-attachments/assets/92cd6bb2-e471-43f5-bb6c-beb56bc6cf6e)
+
+
