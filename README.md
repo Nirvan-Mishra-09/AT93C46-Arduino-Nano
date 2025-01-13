@@ -1,6 +1,6 @@
 # AT93C46 EEPROM Bit-Banging Interface
 
-This project provides a comprehensive interface for the AT93C46 EEPROM using bit-banging techniques with AVR microcontrollers. It includes functions for initialization, SPI communication, and EEPROM-specific operations such as enabling/disabling write operations, erasing, and writing data.
+This project provides a comprehensive interface for the AT93C46 EEPROM using bit-banging techniques with AVR microcontrollers. Unlike other implementations that use Arduino libraries, this repository takes a **bare-metal approach**, offering greater control and efficiency. The project includes custom functions for SPI communication and direct register manipulation for maximum performance.
 
 ## Features
 
@@ -88,9 +88,20 @@ Defines the test menu and its functionalities:
 ![image](https://github.com/user-attachments/assets/492f1756-d955-4fb3-86b4-2cc229f8743d)
 
 
-## Reference -> https://www.kn34pc.com/spr/arduino_93c46.html
+## Reference
 
+[AT93C46 EEPROM with Arduino Libraries](https://www.kn34pc.com/spr/arduino_93c46.html)
 
+## Key Differences with the attached reference
+
+- **Bare-Metal Approach**: 
+  - No reliance on Arduino libraries.
+  - Full control over microcontroller registers and peripherals.
+- **Custom SPI Functions**:
+  - `spi_data_tx`: Handles SPI data transmission with configurable bit order (LSB/MSB).
+  - `spi_data_rx`: Handles SPI data reception with bit-banging.
+- **Direct Register Manipulation**:
+  - Uses low-level access to microcontroller registers (`DDRB`, `PORTB`, `PINB`) for precise control.
 
 
 
