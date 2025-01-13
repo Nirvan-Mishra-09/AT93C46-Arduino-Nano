@@ -57,4 +57,12 @@ Defines the test menu and its functionalities:
 ## Test Menu
 ![image](https://github.com/user-attachments/assets/92cd6bb2-e471-43f5-bb6c-beb56bc6cf6e)
 
+### Test Case 1: 
+  - We enable EWEN - CMD '2'
+  - Writing ASCII characters - CMD '9'
+  - Dumping NVram - CMD '1'
+
+![image](https://github.com/user-attachments/assets/dcf1ffa8-4998-4245-83af-ad5881a2feb0)
+
+
 
