@@ -88,6 +88,7 @@ Defines the test menu and its functionalities:
 ![image](https://github.com/user-attachments/assets/492f1756-d955-4fb3-86b4-2cc229f8743d)
 
 
+## Reference -> https://www.kn34pc.com/spr/arduino_93c46.html
 
 
 
